@@ -22,9 +22,9 @@ function currentLine(line) {
 for(var i=0; i>line.length; i++);{
      NamesandNumbers.push(i+1 + ". " + line[i]);
    }
+console.log(NamesandNumbers)
 return "The line is currently: " + NamesandNumbers.join(', ');
 }
-console.log(NamesandNumbers)
  currentline();
  
 takeANumber(katzDeliLine, "Ada"); 
