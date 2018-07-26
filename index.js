@@ -19,7 +19,7 @@ function currentLine(line) {
     return "The line is currently empty.";}
     
     var NamesandNumbers = [];
-for(var i = 0; i > line.length; i++);{
+for(var i = 0; i < line.length; i++);{
      NamesandNumbers.push(i+1 + ". " + line[i]);
    }
 return "The line is currently: " + NamesandNumbers.join(', ');
